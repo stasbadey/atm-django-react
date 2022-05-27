@@ -1,0 +1,76 @@
+.container{
+    width: 400px;
+    height: 200px;
+    background-color: gold;
+    opacity: .7;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 15%;
+    margin-left: 37%;
+}
+
+.cardNumber{
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.cardNumber > * + *{
+    margin-left: 30px;
+}
+
+.pin{
+    display: block;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.pin > * + *{
+    margin-left: 63.5px;
+}
+
+.pin strong{
+    margin-left: 40px;
+}
+
+.pinInput{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cardNumberInput{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pinInput:hover{
+    background-color: #e0dede;
+}
+
+.cardNumberInput:hover{
+    background-color: #e0dede;
+}
+
+.submitBtn{
+    display: block;
+    margin-left: 46%;
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.submitBtn:hover{
+    opacity: .7;
+}
+
+.btnLink{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+

@@ -1,0 +1,35 @@
+.header{
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+    opacity: .7;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 15%;
+    margin-left: 37%;
+}
+
+.headerOptions{
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+.headerOption{
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    background-color:cornsilk;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-top: 8px;
+}
+
+.headerOptions > * + *{
+    margin-top: 30px;
+}
+
+.headerOptionLink{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}

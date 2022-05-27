@@ -1,0 +1,47 @@
+.container{
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    margin-top: 15%;
+    margin-left: 37%;
+    padding-top: 50px;
+    padding-left: 110px;
+    position: relative;
+}
+
+.refillBtn{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: cornsilk;
+}
+
+.refillBtn:hover{
+    opacity: .7;
+}
+
+.refillAmount{
+    font-size: 64px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.submitBtn{
+    margin-top: 100px;
+    position: absolute;
+    left: 110px;
+    width: 200px;
+    height: 30px;
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+.submitBtn:hover{
+    background-color: gray;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
